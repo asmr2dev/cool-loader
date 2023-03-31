@@ -16,3 +16,4 @@ const loaders = contentsText.map(text => {
 
 const contents = loaders.join("");
 body.innerHTML = contents;
+body.innerHTML += `<a class="youtube" href="https://www.youtube.com/channel/UCbvqFHbUd26oY0esJPpRjaQ?sub_confirmation=1">Subscribe My <span>Youtube</span> Channel</a>`
